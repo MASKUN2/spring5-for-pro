@@ -1,3 +1,21 @@
+MASKUN직접 추가 //
+
+인텔리제이에서 하기 위해서는 우선  인텔리제이 쉬프트2번 눌러서  edit Custom VM options 들어가서
+-Dconsole.encoding=UTF-8
+-Dfile.encoding=UTF-8
+를 추가하고 재시작한다.
+
+이후 그레이들 https://gradle.org/releases/ 에서 4.10.2 버전을 다운 받는다.
+이후 자바 JDK 1.8버전을 설치해둔다.
+
+이후 깃에서 프로젝트 클로닝을 한다.
+
+그 후 그레이들 빌드에 로컬 그레이들 경로를 아까받은  4.10.2로 지정하고 1.8자바로 지정해고 빌드하면 완성.
+한글이 안깨져야한다.
+
+//
+
+
 # **전문가를 위한 스프링 5 (006987)** 
 
 ![전문가를 위한 스프링 5 Cover](./document/images/cover_front.png)
